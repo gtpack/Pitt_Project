@@ -1,0 +1,43 @@
+<div id="container">
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+
+<head>
+    <meta charset="UTF-8">
+    <title>Audit Sampling Tool Kit: Simple Sampling</title>
+</head>
+
+    <nav>
+    <div class="nav-wrapper indigo darken-4">
+      <a href="/home/" class="brand-logo right">Audit Sampling Tool Kit</a>
+      <ul id="nav-mobile" class="left hide-on-med-and-down">
+        <li><a href="/home/">Home</a></li>
+      </ul>
+    </div>
+  </nav>
+        <div>
+            <h1 class="center-align">Welcome to the simple sampling module.</h1>
+        </div>
+    <body>
+    <div class="container">
+    <p style="font-family: Arial">This module will allow you to generate a sample of random selections base
+    on a population size you enter. Enter your population size on the top line,
+    and then your desired sample size on the bottom line. The tool will select the
+    samples for you.
+    </p>
+    <form action="run_sample">
+        Population Size: <input type="text" , name="num1"><br>
+        Desired Sample Size: <input type="text" , name="num2"><br>
+        <button class="btn waves-effect waves-light" type="submit" name="action">Generate PDF
+            <i class="material-icons right"></i>
+        </button>
+    </form>
+    </div>
+    </body>
+</div>
+
